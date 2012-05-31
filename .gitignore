@@ -1,0 +1,8 @@
+
+/Source/ReceiptStream/bin
+/Source/ReceiptStream/obj
+*.user
+_ReSharper.*
+*.suo
+/Test/ReceiptStream.Tests/bin
+/Test/ReceiptStream.Tests/obj

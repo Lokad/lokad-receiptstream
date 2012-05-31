@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiptStream", "Source\ReceiptStream\ReceiptStream.csproj", "{BA492600-97E2-47DE-A641-96CEC6CF4F4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{4287F41E-12F7-4ACA-BC7F-E4F810DB10A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiptStream.Tests", "Test\ReceiptStream.Tests\ReceiptStream.Tests.csproj", "{87AE3C62-21E2-48C8-919C-C34347243B78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA492600-97E2-47DE-A641-96CEC6CF4F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA492600-97E2-47DE-A641-96CEC6CF4F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA492600-97E2-47DE-A641-96CEC6CF4F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA492600-97E2-47DE-A641-96CEC6CF4F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87AE3C62-21E2-48C8-919C-C34347243B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87AE3C62-21E2-48C8-919C-C34347243B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87AE3C62-21E2-48C8-919C-C34347243B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87AE3C62-21E2-48C8-919C-C34347243B78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87AE3C62-21E2-48C8-919C-C34347243B78} = {4287F41E-12F7-4ACA-BC7F-E4F810DB10A0}
+	EndGlobalSection
+EndGlobal
