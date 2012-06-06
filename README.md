@@ -1,7 +1,9 @@
 # Lokad ReceiptStream
 _By Joannes Vermorel, 2012_
 
-High-performance receipt storage intended for large retail network.
+High-performance receipt storage intended for large retail networks.
+
+Read the [whitepaper (PDF)](http://media.lokad.com/www/PDF/Lokad-ReceiptStream-whitepaper-june-2012.pdf) about _ReceiptStream_.
 
 Visit us at [Lokad.com](http://www.lokad.com/)
 
