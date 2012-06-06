@@ -36,7 +36,16 @@ namespace Lokad.ReceiptStream
             var reader = new MyBinaryReader(_stream);
 
             // Reading the lookup updates
-            var updateCount = reader.Read7BitEncodedInt();
+
+            int updateCount;
+            try
+            {
+                updateCount = reader.Read7BitEncodedInt();
+            } 
+            catch(EndOfStreamException)
+            {
+                return null;
+            }
 
             for(int i = 0; i < updateCount; i++)
             {
